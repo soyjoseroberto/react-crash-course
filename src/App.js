@@ -9,6 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          Had to uninstall global Create React App and install locally only
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"

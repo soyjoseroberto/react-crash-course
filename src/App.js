@@ -1,26 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+// for named export in Greet.js you need to object destructure
+import { Greet } from './components/Greet'
 
 function App() {
+  // A component should always return 1 element (after return statement, have one wrapper element)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          Had to uninstall global Create React App and install locally only
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Jose</h1>
+      <Greet name='Bruce' heroName='Batman' />
     </div>
   );
 }

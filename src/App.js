@@ -2,6 +2,7 @@ import './App.css';
 // for named export in Greet.js you need to object destructure
 import { Greet } from './components/Greet';
 import { Message } from './components/Message'
+import { ClickHandler } from './components/ClickHandler';
 
 function App() {
   // A component should always return 1 element (after return statement, have one wrapper element)
@@ -14,6 +15,8 @@ function App() {
         <p>This is a children prop for Diana comp</p>
       </Greet>
       <Message />
+      {/* ClickHandler to show a event handling */}
+      <ClickHandler />
     </div>
   );
 }

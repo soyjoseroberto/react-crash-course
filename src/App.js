@@ -4,6 +4,7 @@ import { Greet } from './components/Greet';
 import { Message } from './components/Message'
 import { ClickHandler } from './components/ClickHandler';
 import { ParentComponent } from './components/ParentComponent';
+import { ConditionalGreeting } from './components/ConditionalGreeting';
 
 function App() {
   // A component should always return 1 element (after return statement, have one wrapper element)
@@ -19,6 +20,7 @@ function App() {
       {/* ClickHandler to show a event handling */}
       <ClickHandler />
       <ParentComponent />
+      <ConditionalGreeting />
     </div>
   );
 }

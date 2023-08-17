@@ -5,6 +5,7 @@ import { Message } from './components/Message'
 import { ClickHandler } from './components/ClickHandler';
 import { ParentComponent } from './components/ParentComponent';
 import { ConditionalGreeting } from './components/ConditionalGreeting';
+import { UserGreeting } from './components/UserGreeting';
 
 function App() {
   // A component should always return 1 element (after return statement, have one wrapper element)
@@ -21,6 +22,11 @@ function App() {
       <ClickHandler />
       <ParentComponent />
       <ConditionalGreeting />
+      <br/>
+      <p>Showing short-circuit with AND operator</p>
+      <UserGreeting />
+      <br />
+      <p>To-Do: List Rendering (Display a list of items)</p>
     </div>
   );
 }
